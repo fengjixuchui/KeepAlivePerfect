@@ -1,8 +1,11 @@
 # 🔥KeepAlivePerfect
 KeepAlivePerfect是通过JNI复活进程的基础上，实现了通过ioctl复活进程，能最大程度提高复活率。
 
-- `master` 分支是`利用 libbinder.so 与 ActivityManagerService 通信`的版本
+- `main` 分支是`利用 libbinder.so 与 ActivityManagerService 通信`的版本
 - `ioctl`  分支是`使用 ioctl 与 binder 驱动通信`的版本。
+
+### QQ 大学生实习群：794834282
+---
 
 **注🌈**：
 1. 该项目仅供学习和参考，在android4.4到android12.0的模拟器上有效，在真机上没有全面测试。
@@ -60,11 +63,8 @@ configs.setOnBootReceivedListener(new KeepAliveConfigs.OnBootReceivedListener() 
 });
 ```
 
-## 🍎实现原理参考
 
-- [Android 黑科技保活实现原理揭秘](http://weishu.me/2020/01/16/a-keep-alive-method-on-android/)
-- [深度剖析App保活案例](http://www.52im.net/forum.php?mod=viewthread&tid=2893&highlight=%B1%A3%BB%EE)
-- [Android黑科技保活的技术实现](https://juejin.im/post/5e820b61e51d45470652e7b8)
+![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/qrcode_for_gh_5d1938320a76_344.jpg)
 
 ## 应对方法
 
